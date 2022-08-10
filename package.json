@@ -1,0 +1,49 @@
+{
+  "name": "events-edu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "react-scripts test --maxWorkers=1",
+    "cypress": "cypress open",
+    "cypresstest": "npx cypress run --record --key 6dd8226e-1d0c-4a56-91f2-8cedf375600d",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "algoliasearch": "^4.10.5",
+    "bootstrap": "^5.1.0",
+    "contentful": "^8.5.3",
+    "firebase": "^9.0.0",
+    "firebase-admin": "^9.11.1",
+    "googleapis": "^84.0.0",
+    "leaflet": "^1.7.1",
+    "moment": "^2.29.1",
+    "next": "11.1.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-juice": "^1.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "4.2.0",
+    "react-leaflet": "^3.2.1",
+    "react-map-gl": "^6.1.16",
+    "react-mapbox-gl": "^5.1.1",
+    "react-responsive-modal": "^6.1.0",
+    "react-share": "^4.4.0"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
+    "@testing-library/react": "^12.0.0",
+    "cypress": "^8.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "prettier": "2.3.2"
+  }
+}

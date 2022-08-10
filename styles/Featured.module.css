@@ -1,0 +1,19 @@
+.iconlinktext {
+    display: inline-flex;
+    align-items: center;
+    color: #018AC8;
+
+}
+
+.iconlinktext > .iconlink {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+  color: #018AC8;
+}
+
+.iconlinktext:hover > .iconlink {
+    transform: translate(.25rem);
+    
+}

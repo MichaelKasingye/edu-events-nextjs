@@ -1,0 +1,31 @@
+.herosection{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+.headers{
+color: #096691;
+font-weight: 700;
+}
+
+.tags {
+  display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #096691;
+    margin: 2px;
+    padding: 5px
+}
